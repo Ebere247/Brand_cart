@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif; 
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+
+
+.header {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 0;
+
+}
+
+.size {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 48px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.leftIcons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #8b96a5;
+}
+
+.icon span svg {
+    width: 18px;
+    height: 18px;
+}
+
+.rightCont {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Hide the mobile icons from the desktops and large screens */
+.humburger, .mobileIcons {
+    display: none;
+}
+
+/* Breadcrumps styling */
+    .breadcrumps {
+        padding: 35px 0;
+        font-weight: 600;
+    }
+
+/* Content Styling */
+
+.cart {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.leftCart {
+    width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.rightCart {
+    width: 20%;
+}
+
+/* Single Cart Styling */
+.singleCart {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+
+.ISC {
+    display: flex;
+    gap: 15px;
+}
+
+.productData .productName {
+    font-size: 18px;
+    font-weight: '600';
+    
+}
+
+.productSize, .productSeller {
+    font-size: 16px;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.btns {
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 14px;
+
+}
+
+.remove {
+    color: #fa34fa;
+}
+
+.saveLater {
+    color: #0d6def;
+}
+
+.rSC {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+
+.rSC .price {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.formControl {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+
+/* RIGHT SIDE CART STYLING (Coupon and Total Section */
+
+.rightCart {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightCart .coupon {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.coupon .couponText{
+    font-size: 1rem;
+    color: #505050;
+    padding-bottom: 5px;
+
+}
+
+.coupon .form{
+    display: flex;
+
+}
+
+.inpCoupon, .btnCoupon {
+    height: 40px;
+    border: 1px solid #505050;
+}
+
+.inpCoupon {
+    width: 164px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #505050;
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.btnCoupon {
+    width: 85px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: inherit;
+    color: #0d6e0d;
+    font-weight: 600;
+}
+
+/* Total Price Section */
+
+.totalPrice {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.prices p {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+
+.prices p .red {
+    color: #FA3434;
+}
+
+.prices p .green {
+    color: #00B517;
+}
+
+.line {
+    margin: 20px 0;
+    
+}
+
+.tPrice {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+
+.total {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.totalSum {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+.btnTotal {
+    background-color: #00B517;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: none;
+}
+
+.payment {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 10px;
+}
+
+.payment img {
+    width: 34px;
+    height: 22px;
+    
+}
+
+
+
+
+
